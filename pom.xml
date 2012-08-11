@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>mc.now</groupId>
-	<artifactId>mc.now</artifactId>
+	<groupId>com.enderville.enderinstaller</groupId>
+	<artifactId>com.enderville.enderinstaller</artifactId>
 	<version>dev-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mc.now</name>
+	<name>EnderInstaller</name>
 	<description>A shiny formatted and properly mavenised version of the mc-now launcher. Will stay updated.</description>
-	<url>https://github.com/md-5/mc-now/</url>
+	<url>http://enderville.com</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -75,7 +75,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<Main-Class>mc.now.ui.Installer</Main-Class>
+							<Main-Class>com.enderville.enderinstaller.ui.Installer</Main-Class>
 						</manifestEntries>
 					</archive>
 				</configuration>
@@ -93,10 +93,10 @@
 						<configuration>
 							<headerType>gui</headerType>
 							<outfile>target/EnderPackInstaller.exe</outfile>
-							<jar>target/mc.now.jar</jar>
+							<jar>target/EnderPackInstaller.jar</jar>
 							<errTitle>EnderPack Installer</errTitle>
 							<classPath>
-								<mainClass>mc.now.ui.Installer</mainClass>
+								<mainClass>com.enderville.enderinstaller.ui.Installer</mainClass>
 								<addDependencies>false</addDependencies>
 								<preCp>anything</preCp>
 							</classPath>

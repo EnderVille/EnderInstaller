@@ -1,4 +1,4 @@
-package mc.now.ui;
+package com.enderville.enderinstaller.ui;
 
 import java.awt.Graphics;
 import java.awt.Image;

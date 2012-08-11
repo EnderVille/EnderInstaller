@@ -1,4 +1,4 @@
-package mc.now.util;
+package com.enderville.enderinstaller.util;
 
 import java.io.File;
 import java.util.*;

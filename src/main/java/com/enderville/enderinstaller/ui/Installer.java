@@ -1,4 +1,4 @@
-package mc.now.ui;
+package com.enderville.enderinstaller.ui;
 
 import com.jidesoft.swing.CheckBoxTree;
 import com.jidesoft.swing.CheckBoxTreeSelectionModel;
@@ -23,8 +23,8 @@ import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreePath;
-import mc.now.util.InstallScript;
-import mc.now.util.InstallerConfig;
+import com.enderville.enderinstaller.util.InstallScript;
+import com.enderville.enderinstaller.util.InstallerConfig;
 import net.miginfocom.layout.AC;
 import net.miginfocom.layout.CC;
 import net.miginfocom.layout.LC;
